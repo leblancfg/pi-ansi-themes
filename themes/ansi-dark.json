@@ -1,0 +1,82 @@
+{
+	"$schema": "https://raw.githubusercontent.com/badlogic/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+	"name": "ansi-dark",
+	"vars": {
+		"red": 9,
+		"green": 10,
+		"yellow": 11,
+		"blue": 12,
+		"magenta": 13,
+		"cyan": 14,
+		"gray": 8,
+		"dimGray": 240,
+		"darkGray": 238,
+		"bgBase": 235,
+		"bgRaised": 236,
+		"bgOverlay": 237
+	},
+	"colors": {
+		"accent": "cyan",
+		"border": "blue",
+		"borderAccent": "cyan",
+		"borderMuted": "darkGray",
+		"success": "green",
+		"error": "red",
+		"warning": "yellow",
+		"muted": "gray",
+		"dim": "dimGray",
+		"text": "",
+		"thinkingText": "gray",
+
+		"selectedBg": "bgOverlay",
+		"userMessageBg": "bgBase",
+		"userMessageText": "",
+		"customMessageBg": "bgBase",
+		"customMessageText": "",
+		"customMessageLabel": "magenta",
+		"toolPendingBg": "bgBase",
+		"toolSuccessBg": "bgBase",
+		"toolErrorBg": "bgRaised",
+		"toolTitle": "",
+		"toolOutput": "gray",
+
+		"mdHeading": "yellow",
+		"mdLink": "blue",
+		"mdLinkUrl": "dimGray",
+		"mdCode": "cyan",
+		"mdCodeBlock": "green",
+		"mdCodeBlockBorder": "gray",
+		"mdQuote": "gray",
+		"mdQuoteBorder": "gray",
+		"mdHr": "gray",
+		"mdListBullet": "cyan",
+
+		"toolDiffAdded": "green",
+		"toolDiffRemoved": "red",
+		"toolDiffContext": "gray",
+
+		"syntaxComment": "gray",
+		"syntaxKeyword": "blue",
+		"syntaxFunction": "yellow",
+		"syntaxVariable": "cyan",
+		"syntaxString": "green",
+		"syntaxNumber": "magenta",
+		"syntaxType": 6,
+		"syntaxOperator": "",
+		"syntaxPunctuation": "",
+
+		"thinkingOff": "darkGray",
+		"thinkingMinimal": "gray",
+		"thinkingLow": 4,
+		"thinkingMedium": "blue",
+		"thinkingHigh": 5,
+		"thinkingXhigh": "magenta",
+
+		"bashMode": "green"
+	},
+	"export": {
+		"pageBg": "#181818",
+		"cardBg": "#1e1e1e",
+		"infoBg": "#2a2a1e"
+	}
+}
