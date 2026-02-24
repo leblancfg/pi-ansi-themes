@@ -1,7 +1,7 @@
 {
   "name": "pi-ansi-themes",
   "version": "0.1.0",
-  "description": "ANSI-native dark and light themes for pi coding agent -- adapts to your terminal color scheme",
+  "description": "Pi coding agent themes that inherit your terminal colors instead of overriding them",
   "keywords": ["pi-package"],
   "license": "MIT",
   "pi": {

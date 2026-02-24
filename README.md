@@ -1,9 +1,13 @@
 # pi-ansi-themes
 
-ANSI-native dark and light themes for the [pi coding agent](https://github.com/badlogic/pi-mono).
+Dark and light themes for the [pi coding agent](https://github.com/badlogic/pi-mono)
+that match your terminal's color scheme instead of overriding it.
 
-Uses only ANSI palette indices 0--15 and `""` (terminal default), so pi inherits
-whatever color scheme your terminal already has.
+Pi's built-in themes use hardcoded hex colors, so they clash with terminal
+themes like Tokyo Night, Catppuccin, Dracula, Nord, Gruvbox, Solarized, and
+others. These themes fix that by using only the 16 standard ANSI color indices,
+letting your terminal -- WezTerm, Kitty, iTerm2, Alacritty, Ghostty, Windows
+Terminal, or anything else -- provide the actual colors.
 
 ## Install
 
@@ -23,11 +27,11 @@ Or `ansi-light` for light terminals.
 
 | Theme | Foreground palette | Background |
 |-------|-------------------|------------|
-| `ansi-dark` | Bright ANSI (8--15) | Terminal default |
+| `ansi-dark` | Bright ANSI (8--15) | ANSI black |
 | `ansi-light` | Standard ANSI (0--7) | Terminal default |
 
-No hex, no 256-color, no grayscale ramp. The `export` section keeps hex for
-HTML output since ANSI indices don't apply there.
+No hex, no 256-color, no grayscale ramp. Colors come from your terminal and
+nowhere else.
 
 ## Contributing
 
